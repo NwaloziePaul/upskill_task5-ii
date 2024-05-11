@@ -1,0 +1,765 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+    font-family: "M PLUS Rounded 1c", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    
+}
+header{
+    background-color: orange;
+}
+header>.box{
+     display: flex;
+    justify-content: center;
+    padding-top: 4rem;
+}
+header>.box>img{
+    width: 15rem;
+    height: 15rem;
+    border-radius: 50%;
+}
+header>h2{
+    text-align: center;
+    font-size: 3rem;
+    font-family: "Pacifico", cursive;
+    font-weight: 400;
+    font-style: normal;
+    transform: skewY(-10deg);
+    color: white;
+}
+header>p{
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    font-family: "M PLUS Rounded 1c", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+header>.box2{
+    color: white;
+    font-size: 2rem;
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+}
+header>.box2>a>i{
+    color: white;
+    font-size: 2rem;
+}
+.A{
+    padding: 2rem 3rem;
+}
+.A>h1{
+    text-align: center;
+    font-size: 4rem;
+}
+.A>.my-info>.left>p>span{
+    font-weight: bold;
+    padding-right: 2rem;
+}
+.my-info{
+    display: flex;
+}
+.my-info>.left{
+    width: 30%;
+}
+.my-info>.right{
+    width: 70%;
+}
+.my-info>.right>p{
+    line-height: 1.5rem;
+}
+.my-info>.right>a{
+    color: white;
+    background-color: rgb(1, 1, 83);
+    font-size: 2rem;
+}
+.contacts{
+    display: flex;
+    justify-content: center;
+    font-size: 1.5rem;
+    gap: 1rem;
+}
+.contacts>a{
+    color: black;
+    font-size: 40px;
+    padding: 0.5rem;
+}
+
+/* Resume */
+
+.Experience>h1{
+    font-size: 4rem;
+    text-align: center;
+    letter-spacing: 1rem;
+}
+.Experience>.work{
+    display: flex;
+    justify-content: center;
+    letter-spacing: 0.5rem;
+}
+.Experience>.work>h3{
+    background-color: rgb(220, 217, 217);
+    margin-bottom: 0;
+}
+.Expertise{
+    position: relative;
+    display: flex;
+}
+.Expertise>.left{
+    width: 50%;
+    border-right:1px rgb(220, 217, 217) solid;
+    text-align: right;
+}
+.Expertise>.right{
+    width: 50%;
+    border-left:1px rgb(220, 217, 217) solid;
+    padding: 15rem 3rem 0rem 3rem;
+}
+.Expertise>.right>.a{
+    color: white;
+    position: absolute;
+    left: 48.2%;
+    top: 48%;
+    background-color: orange;
+    padding: 1rem 1rem;
+    border-radius: 50%;
+}
+.Expertise>.left>.left1{
+    display: flex;
+    padding: 0 3rem 15rem 3rem;
+}
+.Expertise>.left>.left1>.b{
+    position: absolute;
+    left: 48.2%;
+    top: 18%;
+    color: white;
+    background-color: orange;
+    padding: 1rem 1rem;
+    border-radius: 50%;
+}
+.Expertise>.left>.left2{
+    padding: 0rem 3rem 0rem 3rem;
+}
+.Expertise>.left>.left2>.b{
+    position: absolute;
+    left: 48.2%;
+    top: 78%;
+    color: white;
+    background-color: orange;
+    padding: 1rem 1rem;
+    border-radius: 50%;
+}
+.Education{
+    padding-bottom: 5rem;
+    position: relative;
+}
+.Education>.edu{
+    display: flex;
+    justify-content: center;
+    letter-spacing: 0.3rem;
+}
+.Education>.edu>h3{
+    background-color:rgb(220, 217, 217);
+    margin-top: 0%;
+    margin-bottom: 0;
+}
+.Education>.abt{
+    display: flex;
+}
+.Education>.abt>.left{
+    width: 50%;
+    padding: 12rem 3rem 0rem 3rem;
+    text-align: right;
+    border-right:1px rgb(220, 217, 217) solid;
+
+}
+.Education>.abt>.right{
+    width: 50%;
+    padding: 0rem 3rem 0rem 3rem;
+    border-left:1px rgb(220, 217, 217) solid;
+}
+.abt>.left>.left1{
+    padding-bottom: 10rem;
+}
+.abt>.left>.left1>.b{
+    position: absolute;
+    left: 48.1%;
+    top: 38%;
+    padding: 1rem 1rem;
+    border-radius: 50%;
+    color: white;
+    background-color: orange;
+}
+.abt>.left>.left2>.b{
+    position: absolute;
+    left: 48.1%;
+    top: 78%;
+    padding: 1rem 1rem;
+    border-radius: 50%;
+    color: white;
+    background-color: orange;
+}
+
+.abt>.right>.right1{
+    padding-bottom: 10rem;
+}
+.abt>.right>.right1>.b{
+    position: absolute;
+    left: 48.1%;
+    top: 18%;
+    padding: 1rem 1rem;
+    border-radius: 50%;
+    color: white;
+    background-color: orange;
+}
+.abt>.right>.right2>.b{
+    position: absolute;
+    left: 48.1%;
+    top: 58%;
+    padding: 1rem 1rem;
+    border-radius: 50%;
+    color: white;
+    background-color: orange
+}
+
+/*My Services */
+
+.services{
+    background-color: orange;
+    color: white;
+    text-align: center;
+    padding: 5rem 3rem 0rem 3rem;
+}
+.services>h1{
+    font-size: 4rem;
+}
+
+/* Top services */
+
+.service>.up{
+    display: flex;
+    gap: 2rem;
+    padding: 3rem 0rem 3rem 0rem;
+}
+.service>.up>.up-1>i{
+    font-size: 6rem;
+}
+.service>.up>.up-1{
+    display: flex;
+    flex-direction: column;
+}
+.service>.up>.up-2>i{
+    font-size: 6rem;
+}
+.service>.up>.up-3>i{
+    font-size: 6rem;
+}
+
+/* Bottom services */
+
+.service>.down{
+    display: flex;
+    gap: 1rem;
+}
+.service>.down>.down-1>i{
+    font-size: 6rem;
+}
+.service>.down>.down-2>i{
+    font-size: 6rem;
+}
+.service>.down>.down-3>i{
+    font-size: 6rem;
+}
+
+/* Skills */
+
+.F>h1{
+    font-size: 4rem;
+    text-align: center;
+}
+.F{
+    padding: 2rem 0rem 3rem 0rem;
+}
+
+/* Top skills */
+
+.skills>.up{
+    display: flex;
+    gap: 1rem;
+    padding-bottom: 2rem;
+}
+.skills>.up>p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 10rem;
+    height: 10rem;
+    margin: auto;
+    border-radius: 50%;
+    border: 4px solid orange;
+    border-top-color: rgb(218, 208, 208);
+    border-right-color: rgb(218, 208, 208);
+}
+ /* Bottom skills */
+
+ .skills>.down{
+    display: flex;
+    gap: 1rem;
+}
+
+.skills>.down>p{
+display: flex;
+justify-content: center;
+align-items: center;
+width: 10rem;
+height: 10rem;
+margin: auto;
+border-radius: 50%;
+border: 4px solid orange;
+border-top-color: rgb(218, 208, 208);
+border-right-color: rgb(218, 208, 208);
+border-bottom-color:rgb(218, 208, 208);
+}
+
+/* skill line */
+
+.line{
+    display: flex;
+    gap: 2rem;
+    padding: 2rem 2rem;
+}
+.line>.left, .right{
+    width: 45%;
+}
+
+/* hr target left */
+
+.line>.left, .right>hr{
+    height: 3px;
+    position: relative;
+}
+.line>.left>hr::before{
+    content: "";
+    position: absolute;
+    width: 50%;
+    height: 3px;
+    background-color: rgb(61, 61, 9);
+}
+
+/* hr target right */
+
+.line>.right>hr::before{
+    content: "";
+    position: absolute;
+    width: 25%;
+    height: 3px;
+    background-color: orange;
+}
+
+/* to move the span */
+
+.line>.left>span{
+    float: right;
+}
+.line>.right>span{
+    float: right;
+}
+
+/* projects */
+
+.G{
+    min-height: 50vh;
+    background-color: orange;
+    color: white;
+    text-align: center;
+    padding: 4rem 2rem 4rem 2rem;
+}
+.G>h1{
+    font-size: 40px;
+}
+
+/* project images */
+
+
+.projects>.up{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.projects>.up>a{
+    text-decoration: none;
+}
+
+/* image text styling */
+
+.projects>.up>.image {
+    position: relative;
+    width: 45%;
+
+}
+.projects>.up>.image img {
+    width: 100%;
+    height: 100%;
+}
+.projects>.up>.image>p{
+    position: absolute;
+    top: 30%;
+    bottom: 50%;
+    left: 27.5%;
+    font-size: 0;
+    transition: 1s 1ms ease-in-out;
+}
+.projects>.up>.image:hover p{
+    font-size: 3rem;
+}
+
+/* Hire me */
+
+
+.hire{
+    background-color: orange;
+    text-align: center;
+    padding: 3rem 2rem 3rem 2rem;
+    color: white;
+}
+.hire>h1{
+    font-size: 40px;
+}
+.hire>button{
+    background-color: white;
+    color: orange;
+    border: 1px orange solid;
+    padding: 1rem;
+    width: 10rem;
+    border-radius: 30px;
+    margin-top: 2rem;
+}
+
+/* Contact Form */
+
+
+.form{
+    display: flex;
+}
+.form>.left{
+    width: 50%;
+    background-color: rgb(196, 191, 191);
+}
+.form>.right{
+    width: 50%;
+    padding: 0rem 0rem 2rem 2rem;
+}
+.form>.right>form{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+form input[type='text']{
+    width: 20rem;
+    height: 2rem;
+}
+form input[type='email']{
+    width: 30rem;
+    height: 2rem;
+}
+form>.big[type='text']{
+    width: 30rem;
+    height: 20rem;
+    position: relative;
+}
+form>.big[type='text']::placeholder{
+    position: absolute;
+    top: 0%;
+    left: 0%;
+}
+.form>.right>button{
+    background-color: orange;
+    color: white;
+    border: 1px white solid;
+    padding: 1rem;
+    width: 10rem;
+    border-radius: 30px;
+    margin-top: 2rem;
+}
+
+/* footer */
+
+footer{
+    background-color: orange;
+    text-align: center;
+    padding: 0.5rem 0rem;
+}
+
+
+@media (max-width:550px) {
+    .A{
+        padding: 1rem 1rem;
+    }
+    .A>h1{
+        text-align: center;
+        font-size: 40px;
+    }
+    .my-info{
+        display: flex;
+        flex-direction: column;
+        font-size: 15px;
+    }
+    .my-info>.left{
+        width: 100%;
+    }
+    .my-info>.right{
+        width: 100%;
+    }
+
+    /* My resume */
+
+
+    .Experience>h1{
+        font-size: 3rem;
+        text-align: center;
+        letter-spacing: normal;
+    }
+    .Experience>.work{
+        display: flex;
+        justify-content: center;
+        letter-spacing: 0.2rem;
+    }
+    .Expertise{
+        display: flex;
+        flex-direction: column;
+        padding: 1rem 1rem;
+    }
+    .Expertise>.left{
+        width: 100%;
+        border-right:none;
+        text-align: center;
+    }
+    .Expertise>.right{
+        width: 100%;
+        border-left:none;
+        padding: 0;
+    }
+    .Expertise>.left>.left2{
+        position: relative;
+    }
+    .Expertise>.left>.left2>.b{
+        position: absolute;
+        left: 0%;
+        top: 0%;
+        color: white;
+        background-color: orange;
+        padding: 1rem 1rem;
+        border-radius: 50%;
+    }
+    .Expertise>.left>.left1{
+        position: relative;
+        padding: 0 1rem 1rem 1rem;
+    }
+    .Expertise>.left>.left1>.b{
+        position: absolute;
+        left: 0%;
+        top: 0%;
+        color: white;
+        background-color: orange;
+        padding: 1rem 1rem;
+        border-radius: 50%;
+    }
+    .Expertise>.right{
+        width: 100%;
+        border-left:none;
+        text-align: center;
+        padding: 0rem 1rem 0rem 1rem;
+        position: relative;
+    }
+    .Expertise>.right>.a{
+        color: white;
+        position: absolute;
+        left: 0%;
+        top: 0%;
+        background-color: orange;
+        padding: 1rem 1rem;
+        border-radius: 50%;
+    }
+    .Education>.edu{
+        display: flex;
+        justify-content: center;
+        letter-spacing: 0.1rem;
+    }
+    .Education>.abt{
+        display: flex;
+        flex-direction: column;
+    }
+    .Education>.abt>.left{
+        width: 100%;
+        padding: 1rem 1rem 0rem 1rem;
+        text-align: center;
+        border-right:none;
+    
+    }
+    .Education>.abt>.right{
+        width: 100%;
+        text-align: center;
+        position: relative;
+        padding: 0rem 1rem 0rem 1rem;
+        border-left:none;
+    }
+    .abt>.left>.left1{
+        padding-bottom: 1rem;
+        position: relative;
+    }
+    .abt>.left>.left1>.b{
+        position: absolute;
+        left: 0%;
+        top: 0%;
+        padding: 1rem 1rem;
+        border-radius: 50%;
+        color: white;
+        background-color: orange;
+    }
+    .abt>.left>.left2{
+        position: relative;
+    }
+    .abt>.left>.left2>.b{
+        position: absolute;
+        left: 0%;
+        top: 0%;
+        padding: 1rem 1rem;
+        border-radius: 50%;
+        color: white;
+        background-color: orange;
+    }
+    .abt>.right>.right1{
+        padding-bottom: 1rem;
+        position: relative;
+    }
+    .abt>.right>.right1>.b{
+        position: absolute;
+        left: 0%;
+        top: 0%;
+        padding: 1rem 1rem;
+        border-radius: 50%;
+        color: white;
+        background-color: orange;
+    }
+    .abt>.right>.right2{
+        position: relative;
+    }
+    .abt>.right>.right2>.b{
+        position: absolute;
+        left: 0%;
+        top: 0%;
+        padding: 1rem 1rem;
+        border-radius: 50%;
+        color: white;
+        background-color: orange
+    }
+
+    /* services */
+
+    .services>h1{
+        font-size: 2rem;
+    }
+
+    .services{
+        font-size: 15px;
+        padding: 1rem 1rem 1rem 1rem;
+    }
+    .service>.up{
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+        font-size: 20px;
+        padding: 0rem;
+    }
+    .service>.down{
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+        font-size:20px ;
+    }
+
+    /* skills */
+
+
+
+    .F>h1{
+        font-size: 2rem;
+        text-align: center;
+    }
+    .F{
+        padding: 1rem;
+    }
+    .skills>.up>p{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 5rem;
+        height: 5rem;
+        margin: auto;
+        border-radius: 50%;
+        border: 4px solid orange;
+        border-top-color: rgb(218, 208, 208);
+        border-right-color: rgb(218, 208, 208);
+    }
+    .skills>.down>p{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 5rem;
+        height: 5rem;
+        margin: auto;
+        border-radius: 50%;
+        border: 4px solid orange;
+        border-top-color: rgb(218, 208, 208);
+        border-right-color: rgb(218, 208, 208);
+        border-bottom-color:rgb(218, 208, 208);
+    }
+
+    /* image text styling */
+
+    .projects>.up>.image:hover p{
+        font-size: 13px;
+    }
+
+    /* form */
+
+    .form>.right{
+        width: 100%;
+        padding: 0rem 0rem 2rem 2rem;
+        text-align: center;
+    }
+    form input[type='text']{
+        width: 15rem;
+        height: 2rem;
+    }
+    form input[type='email']{
+        width: 19rem;
+        height: 2rem;
+    }
+    form>.big[type='text']{
+        width: 19rem;
+        height: 20rem;
+    }
+    .form>.left{
+        width: 0%;
+        background-color: rgb(196, 191, 191);
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
